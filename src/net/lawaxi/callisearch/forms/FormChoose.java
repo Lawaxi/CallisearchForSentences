@@ -27,9 +27,12 @@ public class FormChoose extends JFrame {
             dealPic(selectable[2],label3);
 
         setSize(1000,500);
+        setTitle("Please choose. (When you see this page, there should be at least two options for you to choose. So please wait until they appear.");
         setLocationRelativeTo(null);
         toFront();
         setVisible(true);
+
+
     }
 
 
@@ -46,7 +49,7 @@ public class FormChoose extends JFrame {
         label3 = new JJLabel();
 
         //======== this ========
-        setTitle("Please choose. (When you see this page, there must be at least 2 choices for you, please wait.)");
+        setTitle("Please choose");
         Container contentPane = getContentPane();
         contentPane.setLayout(new MigLayout(
             "hidemode 3",

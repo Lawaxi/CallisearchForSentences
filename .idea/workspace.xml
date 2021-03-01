@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb02316c-56da-4578-a96f-6669c76de895" name="Default Changelist" comment="" />
+    <list default="true" id="cb02316c-56da-4578-a96f-6669c76de895" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="220">
+              <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/awt/Window.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
+            <state relative-caret-position="-177">
               <caret line="1162" column="9" selection-start-line="1162" selection-start-column="9" selection-end-line="1162" selection-end-column="9" />
               <folding>
                 <element signature="e#40240#40241#0" expanded="true" />
@@ -73,9 +78,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="-220">
+              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
               <folding>
+                <element signature="e#1169#1170#0" expanded="true" />
                 <element signature="e#1231#1232#0" expanded="true" />
               </folding>
             </state>
@@ -83,18 +89,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/TEMP/Rar$DRa13308.35382/net/lawaxi/callisearch/utils/UtilShufadashi.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilHttp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
+            <state>
               <caret column="37" selection-start-column="37" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,20 +100,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="264">
+              <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2660#2909#0" expanded="true" />
-                <element signature="e#2908#2909#0" expanded="true" />
-                <element signature="e#3100#3101#0" expanded="true" />
-                <element signature="e#3136#3137#0" expanded="true" />
-                <element signature="e#3189#3190#0" expanded="true" />
-                <element signature="e#3231#3232#0" expanded="true" />
-                <marker date="1614517009722" expanded="true" signature="1047:2558" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1614613035681" expanded="true" signature="1200:2629" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
@@ -140,6 +131,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -148,8 +142,8 @@
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.jfd" />
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilHttp.java" />
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java" />
-        <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java" />
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java" />
+        <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java" />
       </list>
     </option>
   </component>
@@ -159,11 +153,13 @@
     <option name="width" value="2584" />
     <option name="height" value="1378" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -201,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,7 +206,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="书法搜索2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614527880410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614613035869" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -260,12 +255,13 @@
       <workItem from="1614443769792" duration="228000" />
       <workItem from="1614444061804" duration="714000" />
       <workItem from="1614444830911" duration="1640000" />
-      <workItem from="1614503608564" duration="14656000" />
+      <workItem from="1614503608564" duration="14877000" />
+      <workItem from="1614609399616" duration="2164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17238000" />
+    <option name="totallyTimeSpent" value="19623000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,9 +273,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="-4" width="1292" height="689" extended-state="1" />
+    <frame x="18" y="-4" width="1292" height="689" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26213592" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26618123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,7 +285,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5839286" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12142857" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -296,7 +293,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.43035713" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36607143" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -344,23 +341,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
+    <entry file="file://D:/TEMP/Rar$DRa13308.35382/net/lawaxi/callisearch/utils/UtilShufadashi.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/io/RandomAccessFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="315" selection-start-line="315" selection-end-line="315" />
+        <state relative-caret-position="760">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilHttp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
+        <state>
           <caret column="37" selection-start-column="37" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -368,16 +358,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/TEMP/Rar$DRa13308.35382/net/lawaxi/callisearch/utils/UtilShufadashi.class">
+    <entry file="file://$PROJECT_DIR$/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/awt/Window.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
+        <state relative-caret-position="-177">
           <caret line="1162" column="9" selection-start-line="1162" selection-start-column="9" selection-end-line="1162" selection-end-column="9" />
           <folding>
             <element signature="e#40240#40241#0" expanded="true" />
@@ -397,44 +387,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state propertiesWidth="219" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="315" selection-start-line="315" selection-end-line="315" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="-220">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
           <folding>
+            <element signature="e#1169#1170#0" expanded="true" />
             <element signature="e#1231#1232#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2660#2909#0" expanded="true" />
-            <element signature="e#2908#2909#0" expanded="true" />
-            <element signature="e#3100#3101#0" expanded="true" />
-            <element signature="e#3136#3137#0" expanded="true" />
-            <element signature="e#3189#3190#0" expanded="true" />
-            <element signature="e#3231#3232#0" expanded="true" />
-            <marker date="1614517009722" expanded="true" signature="1047:2558" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="220">
+          <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state propertiesWidth="219" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1614613035681" expanded="true" signature="1200:2629" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>

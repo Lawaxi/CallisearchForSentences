@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class UtilShufadashi {
 
-    public static String url = "http://www.sfds.cn/word/5/";//篆书
+    public static String url = "http://www.sfds.cn/word/script/";//篆书
     public static String[] writer = {"邓石如","鄧石如","邓琰","鄧琰","说文解字"};
 
-    public static String[] getSelectable(char word){
-        String u = url.replace("word",toUnicode(word));
+    public static String[] getSelectable(char word, String script){
+        String u = url.replace("word",toUnicode(word)).replace("script",script);
         String out = UtilHttp.getInputText(u);
 
         if(!out.equals("")){

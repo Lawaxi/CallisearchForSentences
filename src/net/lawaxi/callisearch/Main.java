@@ -3,7 +3,6 @@ package net.lawaxi.callisearch;
 import net.lawaxi.callisearch.forms.FormChoose;
 import net.lawaxi.callisearch.utils.UtilShufadashi;
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.net.URL;
@@ -23,11 +22,14 @@ public class Main {
                 "■                                                                                                    ■\n" +
                 "■                                      Welcome to Callisearch                                        ■\n" +
                 "■                                                                                                    ■\n" +
-                "■                               Type sentence to search.                                             ■\n" +
-                "■                               Type 'reset' to reset the serial number.                             ■\n" +
-                "■                               Type 'clear' to clear the results' folder.                           ■\n" +
+                "■              Type sentence to search.                                                              ■\n" +
+                "■               (You can type 1-number code before your sentence to choose scripts,)                 ■\n" +
+                "■               1-Regular 2-Running 3-Cursive 4-Official 5-Seal.)                                    ■\n" +
+                "■              Type 'reset' to reset the serial number.                                              ■\n" +
+                "■              Type 'clear' to clear the results' folder.                                            ■\n" +
+                "■              Type 'auto' to open/close auto-choose when facing more than two options.              ■\n" +
                 "■                                                                                                    ■\n" +
-                "■                                        by delay, ver. 1.0                                          ■\n" +
+                "■                                        by delay, ver. 1.1                                          ■\n" +
                 "■                                                                                                    ■\n" +
                 "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■\n");
         System.out.print("[INFO] Results will be saved in: "+path+"\n\n");
@@ -47,11 +49,29 @@ public class Main {
             System.out.print("[INFO] Successfully switch serial number to 0.\n");
             return;
         }
+        else if(a2.equals("clear")){
+            new File(path).delete();
+            new File(path).mkdir();
+            System.out.print("[INFO] Successfully clear your results' folder.\n");
+            return;
+        }
 
         char[] in = a2.toCharArray();
+        String script = "5";
         for(char w : in){
+
+            if(in[0]==w){
+                String s = switchScript(w);
+                if(!s.equals("null"))
+                {
+                    script=s;
+                    continue;
+                }
+            }
+
+
             serialNumber++;
-            String[] selectable = UtilShufadashi.getSelectable(w);
+            String[] selectable = UtilShufadashi.getSelectable(w,script);
             String p = path+getNumber(serialNumber)+w+".png";
 
             try {
@@ -75,7 +95,20 @@ public class Main {
         }
 
         System.out.print("[INFO] Done.\n");
+
     }
+
+
+    private static String switchScript(char w){
+        switch (w){
+            case '1': case '2': case '3': case '4': case '5':{
+                System.out.print("[INFO] Successfully switch your script to "+w+" (only for this sentence).\n");
+                return String.valueOf(w);}
+            default:
+                return "null";
+        }
+    }
+
 
     public static void save(String name, BufferedImage image){
         try {
