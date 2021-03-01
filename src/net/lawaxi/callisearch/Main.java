@@ -40,19 +40,25 @@ public class Main {
 
     private static int serialNumber = 0; //上一个序号
     private static String path;
+    private static boolean auto = false;
 
     private static void searchMain(){
         Scanner a1=new Scanner(System.in);
         String a2=a1.next();
         if(a2.equals("reset")){
             serialNumber=0;
-            System.out.print("[INFO] Successfully switch serial number to 0.\n");
+            System.out.print("[INFO] Successfully switched serial number to 0.\n");
             return;
         }
         else if(a2.equals("clear")){
             new File(path).delete();
             new File(path).mkdir();
-            System.out.print("[INFO] Successfully clear your results' folder.\n");
+            System.out.print("[INFO] Successfully cleared your results' folder.\n");
+            return;
+        }
+        else if (a2.equals("auto")){
+            auto=!auto;
+            System.out.print("[INFO] Successfully changed auto-choosing to: "+auto+".\n");
             return;
         }
 
@@ -75,7 +81,7 @@ public class Main {
             String p = path+getNumber(serialNumber)+w+".png";
 
             try {
-                if (selectable.length == 1)
+                if (selectable.length == 1 || (selectable.length>0 && auto))
                     save(p, ImageIO.read(new URL(selectable[0])));
                 else if (selectable.length > 0) {
                     FormChoose b = new FormChoose(selectable,p);
@@ -102,7 +108,7 @@ public class Main {
     private static String switchScript(char w){
         switch (w){
             case '1': case '2': case '3': case '4': case '5':{
-                System.out.print("[INFO] Successfully switch your script to "+w+" (only for this sentence).\n");
+                System.out.print("[INFO] Successfully switched your script to "+w+" (only for this sentence).\n");
                 return String.valueOf(w);}
             default:
                 return "null";

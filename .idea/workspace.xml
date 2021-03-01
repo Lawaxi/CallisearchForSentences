@@ -9,8 +9,6 @@
     <list default="true" id="cb02316c-56da-4578-a96f-6669c76de895" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
+            <state relative-caret-position="100">
+              <caret line="85" column="49" lean-forward="true" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="-516">
               <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,8 +140,8 @@
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.jfd" />
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilHttp.java" />
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/utils/UtilShufadashi.java" />
-        <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java" />
         <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java" />
+        <option value="$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java" />
       </list>
     </option>
   </component>
@@ -206,7 +204,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="书法搜索2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614613035869" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614613203207" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -256,12 +254,12 @@
       <workItem from="1614444061804" duration="714000" />
       <workItem from="1614444830911" duration="1640000" />
       <workItem from="1614503608564" duration="14877000" />
-      <workItem from="1614609399616" duration="2164000" />
+      <workItem from="1614609399616" duration="2331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19623000" />
+    <option name="totallyTimeSpent" value="19790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -285,7 +283,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12142857" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51964283" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,7 +291,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36607143" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36607143" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32978722" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -405,16 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.jfd">
       <provider selected="true" editor-type-id="JFormDesigner">
         <state propertiesWidth="219" />
@@ -422,11 +410,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/forms/FormChoose.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="-516">
           <caret line="29" column="115" selection-start-line="29" selection-start-column="115" selection-end-line="29" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1614613035681" expanded="true" signature="1200:2629" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/lawaxi/callisearch/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="85" column="49" lean-forward="true" selection-start-line="85" selection-start-column="49" selection-end-line="85" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
